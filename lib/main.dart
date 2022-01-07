@@ -11,8 +11,7 @@ void main() {
         ),
         body: Center(
           child: Image(
-              image: NetworkImage(
-                  'https://img.theculturetrip.com/1440x807/smart/wp-content/uploads/2021/04/dnce6n-e1618929428972.jpg'),
+              image: AssetImage('images/diamond.png'),
           ),
         ),
       ),
